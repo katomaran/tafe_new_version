@@ -13,12 +13,12 @@ from usb_controller import (
     start_serial_listener
 )
 
-MODEL_PATH = "/home/katomaran/applications/grapes/30_7/last_30_7.pt"
+MODEL_PATH = "last_30_7.pt"
 
 # Cameras
 CAMERA_SOURCES = {
     "CAM1": "/dev/video0",   # first camera
-    "CAM2": "/dev/video2"    # second camera
+    "CAM2": "/dev/video5"    # second camera
 }
 
 # Configurations (shared thresholds, but cameras have independent states)
