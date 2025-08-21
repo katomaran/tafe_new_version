@@ -88,7 +88,7 @@ You can also send commands (RED, BLACK, YELLOW) via serial to switch dynamically
 
 ## ▶️ Running  
 
-python main.py
+python main_four.py
 
 - Press q during runtime → restart program  
 - Logs available in: grape_detection.log  
